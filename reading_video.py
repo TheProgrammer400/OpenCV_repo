@@ -8,7 +8,7 @@ out = cv2.VideoWriter('output.avi', fourcc, 30, (640, 480))
 
 # XVID is video codec
 # XVID is used for better compression and storage
-# often used to encode video content is AVI format
+# often used to encode video content to AVI format
 
 while video1.isOpened():  # checking for camera
     ret, frame = video1.read()
